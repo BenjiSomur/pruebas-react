@@ -1,19 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-function MyApp(){
-	return(
-		<div>
-			<ul>
-				<li>Elemento 1</li>
-				<li>Elemento 2</li>
-				<li>Elemento 3</li>
-			</ul>
-		</div>
-	);
-}
+import MyInfo from './componentes/MyInfo'
 
 ReactDOM.render(
-	<MyApp />
+	<MyInfo />
 	, document.getElementById('root')
 );
