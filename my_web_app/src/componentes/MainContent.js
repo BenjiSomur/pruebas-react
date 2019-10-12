@@ -5,8 +5,6 @@ function MainContent () {
 	return (
 		<div className="todo-list">
 			<TodoComponent />
-			<TodoComponent />
-			<TodoComponent />
 		</div>
 	);
 }
